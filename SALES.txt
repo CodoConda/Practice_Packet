@@ -1,0 +1,16 @@
+				Question 1 - SQL question
+
+        Assuming you have a table called "sales" with the following columns and one row per sale (purchase).
+            Customer: text
+            Product : text
+            Datetime_of_order : timestamp
+            Quantity : numeric
+            Price_per_item : numeric
+        
+        Please provide sql that will list the top 10 customers (order the list descending based upon total sale value) 
+        only for customers who purchased at least 3 times in the last 6 months, 
+        for each customer also show a column with total purchases 
+        for the last 3 years, year by year.
+        
+        Make whatever assumptions you need to (don't come back with any clarifying questions), 
+        rough sql is fine it doesn't have to be syntactically correct.
